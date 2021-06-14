@@ -1,0 +1,57 @@
+Ontologie
+
+Medicament
+-hasForm:Forma_Farmaceutica
+-hasATC: ATC
+-propCID:String (unic:Codul de Identificare al Medicamentului )
+-ownedBy:Entity
+-producedBy:Entity
+-propDenumireOficiala:String
+-alteDenumiri:String
+-administredFor:Afectiuni
+-hasDose(min/max):
+-hasActiveSubst:SubstanteActive
+
+-hasContradiction:Afectiuni
+
+
+ATC
+ *M01AE01
+ *etc
+ Subclase A,B,C...X conform (https://ro.wikipedia.org/wiki/Sistem_de_clasificare_anatomic%C4%83,_terapeutic%C4%83_%C8%99i_chimic%C4%83_a_medicamentelor)
+
+Forma_Farmaceutica
+*Comprimat
+ -hasColor
+ *Filmat
+ *Ovale
+*Alte forme,etc`
+
+Afectiuni
+ *Afectiuni reumatice
+ *Durere de intensitate uşoară până la moderată
+ *etc, (parsat din retete ,set distinct )
+
+Persoane
+	-hasSex:Sex
+	-propAge:int
+	*Adulţi şi adolescenţi (copii cu vârsta de12 ani şi peste)
+	*Copii cu vârsta între 6 şi 12 ani (>20 kg)
+	*Vârstnici
+
+SubstanteActive
+ *etc
+
+Sex
+ *Male
+ *Female
+
+
+Entity
+ -hasOriginCounty : Country
+ -propName:String
+ *ProducatorLocal
+ *ProducatorExtern
+
+
+	

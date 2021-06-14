@@ -1,0 +1,758 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://test.org/onto.owl"
+         xmlns="http://test.org/onto.owl#">
+
+<owl:Ontology rdf:about="http://test.org/onto.owl"/>
+
+<owl:Class rdf:about="#ATC">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tract_digestiv_si_metabolism">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sange_si_organe_hematopoetice">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sistemul_cardiovascular">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_dermatologice">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Aparat_genito-urinar_si_hormoni_sexuali">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_hormonale_sistemice">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiinfecfioase_de_uz_sistemic">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antineoplazice_si_imunomodulatoare">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sistemul_musculo-scheletic">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sistemul_nervos_central">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_antiparazitare">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Aparatul_respirator">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Organe_senzitive">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Varia">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+  <rdfs:subClassOf rdf:resource="#Alte_preparate_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_fitoterapice_apiterapice_homeopate">
+  <rdfs:subClassOf rdf:resource="#ATC"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_stomatologice">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Minociclină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Corticosteroizi_pentru_tratament_oral_local">
+  <rdfs:subClassOf rdf:resource="#Preparate_stomatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Triamcinolonă">
+  <rdfs:subClassOf rdf:resource="#Corticosteroizi_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Dexametazonă">
+  <rdfs:subClassOf rdf:resource="#Corticosteroizi_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hidrocortizon">
+  <rdfs:subClassOf rdf:resource="#Corticosteroizi_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Prednisolon,combinații">
+  <rdfs:subClassOf rdf:resource="#Corticosteroizi_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_preparate_pentru_tratament_oral_local">
+  <rdfs:subClassOf rdf:resource="#Preparate_stomatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Epinefrină">
+  <rdfs:subClassOf rdf:resource="#Alte_preparate_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Benzidamină">
+  <rdfs:subClassOf rdf:resource="#Alte_preparate_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Acid_acetilsalicilic">
+  <rdfs:subClassOf rdf:resource="#Alte_preparate_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Adrenalonă">
+  <rdfs:subClassOf rdf:resource="#Alte_preparate_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Amlexanox">
+  <rdfs:subClassOf rdf:resource="#Alte_preparate_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicamente_pentru_tulburări_de_aciditate">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicamente_pentru_tulburări_funcționale_gastrointestinale">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiemetice">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Terapia_biliară și hepatică">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Laxative">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antidiareice_Antiinflamatoare_Antiinfecțioase_intestinale">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicația_obezității_exclusiv_produse_dietetice">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Substituenți_și_stimulante_ale_secrețiilor_digestive">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antidiabetice">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vitamine">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Substanțe minerale">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tonice">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anabolice_sistemice">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Stimulante_ale_apetitului">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_pentru_profilaxia_cariei">
+  <rdfs:subClassOf rdf:resource="#Preparate_stomatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fluorură_de_sodiu">
+  <rdfs:subClassOf rdf:resource="#Produse_pentru_profilaxia_cariei"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Monofluorofosfat_de_sodiu">
+  <rdfs:subClassOf rdf:resource="#Produse_pentru_profilaxia_cariei"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Olaflur">
+  <rdfs:subClassOf rdf:resource="#Produse_pentru_profilaxia_cariei"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fluorură_de_staniu">
+  <rdfs:subClassOf rdf:resource="#Produse_pentru_profilaxia_cariei"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Combinații">
+  <rdfs:subClassOf rdf:resource="#Produse_pentru_profilaxia_cariei"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Fluorură_de_sodiu,combinații">
+  <rdfs:subClassOf rdf:resource="#Produse_pentru_profilaxia_cariei"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local">
+  <rdfs:subClassOf rdf:resource="#Preparate_stomatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Peroxid_de_hidrogen">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Clorhexidină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Amfotericină_B">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Polinoxilină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Domifen">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Oxichinolonă">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Neomicină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Miconazol">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Natamicină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hexetidină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Tetraciclină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Clorură_de_benzoxoniu">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Iodat_de_tibezoniu">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Mepartricină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Metronidazol">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Clotrimazol">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Perborat_de_sodiu">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Doxiciclină">
+  <rdfs:subClassOf rdf:resource="#Antiinfecțioase_și_antiseptice_pentru_tratament_oral_local"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_produse_pentru_tractul_digestiv_și_metabolism">
+  <rdfs:subClassOf rdf:resource="#Tract_digestiv_si_metabolism"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antitrombotice">
+  <rdfs:subClassOf rdf:resource="#Sange_si_organe_hematopoetice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antihemoragice">
+  <rdfs:subClassOf rdf:resource="#Sange_si_organe_hematopoetice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Atianemice">
+  <rdfs:subClassOf rdf:resource="#Sange_si_organe_hematopoetice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Substituenți_de_sânge_și_soluții_perfuzabile">
+  <rdfs:subClassOf rdf:resource="#Sange_si_organe_hematopoetice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_preparate_hematologice">
+  <rdfs:subClassOf rdf:resource="#Sange_si_organe_hematopoetice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Terapia_cordului">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antihipertensive">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Diuretice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vasodilatatoare_periferice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antimicotice_de_uz_sistemic">
+  <rdfs:subClassOf rdf:resource="#Antiinfecfioase_de_uz_sistemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antimicobacteriene">
+  <rdfs:subClassOf rdf:resource="#Antiinfecfioase_de_uz_sistemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antivirale_de_uz_sistemic">
+  <rdfs:subClassOf rdf:resource="#Antiinfecfioase_de_uz_sistemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Imunoseruri_și_imunoglobuline">
+  <rdfs:subClassOf rdf:resource="#Antiinfecfioase_de_uz_sistemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vaccinuri">
+  <rdfs:subClassOf rdf:resource="#Antiinfecfioase_de_uz_sistemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antineoplazice">
+  <rdfs:subClassOf rdf:resource="#Antineoplazice_si_imunomodulatoare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Terapia_endocrină">
+  <rdfs:subClassOf rdf:resource="#Antineoplazice_si_imunomodulatoare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Imunostimulante">
+  <rdfs:subClassOf rdf:resource="#Antineoplazice_si_imunomodulatoare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Imunosupresoare">
+  <rdfs:subClassOf rdf:resource="#Antineoplazice_si_imunomodulatoare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_antiinflamatoare_și_antireumatice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_musculo-scheletic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_topice_pentru_algii_articulare_și_musculare">
+  <rdfs:subClassOf rdf:resource="#Sistemul_musculo-scheletic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Miorelaxante">
+  <rdfs:subClassOf rdf:resource="#Sistemul_musculo-scheletic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antigutoase">
+  <rdfs:subClassOf rdf:resource="#Sistemul_musculo-scheletic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicamante_pentru_tratamentul_afecțiunilor_oaselor">
+  <rdfs:subClassOf rdf:resource="#Sistemul_musculo-scheletic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_medicamente_pentru_afecțiuni_ale_sistemului_musculo-scheletic">
+  <rdfs:subClassOf rdf:resource="#Sistemul_musculo-scheletic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Anestezice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Analgezice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiepileptice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiparkinsoniene">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Psiholeptice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Psihoanaleptice">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_preparate_cu_acțiune_asupra_sistemului_nervos">
+  <rdfs:subClassOf rdf:resource="#Sistemul_nervos_central"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiprotozoare">
+  <rdfs:subClassOf rdf:resource="#Aparatul_respirator"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antihelmintice">
+  <rdfs:subClassOf rdf:resource="#Aparatul_respirator"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ectoparaziticide_inclusiv_scabicide_insecticide">
+  <rdfs:subClassOf rdf:resource="#Aparatul_respirator"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_nazale">
+  <rdfs:subClassOf rdf:resource="#Organe_senzitive"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vasoprotectoare">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Betablocante">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Blocante_ale_canalelor_de_calciu">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_active_pe_sistemul_renină-angiotensină">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hipolipemiante">
+  <rdfs:subClassOf rdf:resource="#Sistemul_cardiovascular"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antifungice_de_uz_dermatologic">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Emoliente_și_protectoare">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_pentru_tratamentul_rănilor_și_ulcerelor">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antipruriginoase_inclusiv_antihistaminice_și_anestezice_locale">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antipsoriazice">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antibiotice_și_chimioterapice_de_uz_dermatologic">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Corticosteroizi_preparate_dermatologice">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiseptice_și_dezinfectante">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_antiacneice">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pansamente_medicamentoase">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_preparate_de_uz_dermatologic">
+  <rdfs:subClassOf rdf:resource="#Preparate_dermatologice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antiinfecțioase_și_antiseptice_ginecologice">
+  <rdfs:subClassOf rdf:resource="#Aparat_genito-urinar_si_hormoni_sexuali"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_preparate_ginecologice">
+  <rdfs:subClassOf rdf:resource="#Aparat_genito-urinar_si_hormoni_sexuali"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hormoni_sexuali_și_modulatorii_sistemului_genital">
+  <rdfs:subClassOf rdf:resource="#Aparat_genito-urinar_si_hormoni_sexuali"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicația_aparatului_urinar">
+  <rdfs:subClassOf rdf:resource="#Aparat_genito-urinar_si_hormoni_sexuali"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hormoni_hipofizari_hipotalamici_și_analogi">
+  <rdfs:subClassOf rdf:resource="#Preparate_hormonale_sistemice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Corticosteroizi_de_uz_sistemic">
+  <rdfs:subClassOf rdf:resource="#Preparate_hormonale_sistemice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Terapia_tiroidei">
+  <rdfs:subClassOf rdf:resource="#Preparate_hormonale_sistemice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hormoni_pancreatici">
+  <rdfs:subClassOf rdf:resource="#Preparate_hormonale_sistemice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_pentru_homeostazia_calciului">
+  <rdfs:subClassOf rdf:resource="#Preparate_hormonale_sistemice"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antibacteriene_de_uz_sistemic">
+  <rdfs:subClassOf rdf:resource="#Antiinfecfioase_de_uz_sistemic"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_pentru_zona_oro-faringiană">
+  <rdfs:subClassOf rdf:resource="#Organe_senzitive"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicamente_pentru_bolile_obstructive_ale_căilor_respiratorii">
+  <rdfs:subClassOf rdf:resource="#Organe_senzitive"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Preparate_pentru_tratamentul_tusei_și_răcelii">
+  <rdfs:subClassOf rdf:resource="#Organe_senzitive"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Antihistaminice_de_uz_sistemic">
+  <rdfs:subClassOf rdf:resource="#Organe_senzitive"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_preparate_pentru_aparatul_respirator">
+  <rdfs:subClassOf rdf:resource="#Organe_senzitive"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_oftalmologice">
+  <rdfs:subClassOf rdf:resource="#Produse_antiparazitare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_otologice">
+  <rdfs:subClassOf rdf:resource="#Produse_antiparazitare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_oftalmologice_și_otologice">
+  <rdfs:subClassOf rdf:resource="#Produse_antiparazitare"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alergeni">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_produse_terapeutice">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#COMPR.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOL_INJ./SOL._PT._INHALAT_PRIN_NEBULIZATOR">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CREMA">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SUPOZ.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CAPS.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CONC._PT._SOL._INJ./PERF.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PULB._PT._SOL._ORALA">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SIROP">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#COMPR._EFF.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOL._ORALA">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOL._INJ._SAU_PERF._IN_SERINGA_PREUMPLUTA">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#COMPR.__GASTROREZ.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#GRAN._PT._SOL._ORALA">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#COMPR._FILM.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOL_INJ.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PULBERE_ORALA_IN_PLIC">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOL._INJ.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#PULB._+_SOLV._PT._SUSP._INJ._CU_ELIB._PREL.">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#SOL_INJ._IN_STILOU_INJECTOR_PEN_PREUMPLUT">
+  <rdfs:subClassOf rdf:resource="#FormaFarmaceutica"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Agenți_de_diagnostic">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_dietetice">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Alte_produse_neterapeutice">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medii_de_contrast">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Radiofarmaceutice_pentru_diagnostic">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Radiofarmaceutice_terapeutice">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Pansamente_chirurgicale">
+  <rdfs:subClassOf rdf:resource="#Varia"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_fitoterapice">
+  <rdfs:subClassOf rdf:resource="#Produse_fitoterapice_apiterapice_homeopate"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Produse_homeopate">
+  <rdfs:subClassOf rdf:resource="#Produse_fitoterapice_apiterapice_homeopate"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Medicamente">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FLUOROURACILUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#INSULINUM_GLARGINE">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FILGRASTIMUM_G-CSF">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ABACAVIRUM+LAMIVUDINUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ARIPIPRAZOLUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ACETAZOLAMIDUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#LEVOTHYROXINUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ACICLOVIRUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ACETYLCYSTEINUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#QUINAPRILUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#TERLIPRESSINUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ABACAVIRUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#COMBINATII_PARACETAMOLUM+DICLOFENACUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#COMBINATII_QUINAPRILUM+HYDROCHLOROTHIAZIDUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#ACIDUM_ACETYLSALICYLICUM">
+  <rdfs:subClassOf rdf:resource="#Medicamente"/>
+</owl:Class>
+
+<owl:Class rdf:about="#FormaFarmaceutica">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+
+</rdf:RDF>
